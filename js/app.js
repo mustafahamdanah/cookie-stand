@@ -1,7 +1,7 @@
 'use strict';
 
 // construction function
-var location = [];
+
 var hours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm','8pm'];
 function Salmon(name ,max ,min,averageCo){
   this.name = name,
@@ -108,26 +108,6 @@ for(var n=0;n<location.length;n++){
 
 
 
-// function bodycont(){
-//     var totalLocation = 0;
-//     var rowTable =document.createElement('tr');
-//     table.appendChild(rowTable);
-//     for(var q=0;q<loca.length;q++){
-//       rowTable =document.createElement('tr');
-//       table.appendChild(rowTable);
-//       rowTable.textContent = loca[q].location;
-//       for(var k=0;k<workingTime.length;k++){
-//         var dataTable =document.createElement('td');
-//         rowTable.appendChild(dataTable);
-//         dataTable.textContent = loca[q].cookiesPurchased[k];
-//       }
-//       dataTable =document.createElement('td');
-//       rowTable.appendChild(dataTable);
-//       dataTable.textContent = loca[q].total;
-//       totalLocation += loca[q].total;
-//       console.log(totalLocation);
-//     }
-//   }
 
 
 
