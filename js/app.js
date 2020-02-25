@@ -98,3 +98,10 @@ for(var k=0;k <locationgg.length;k++){
   tr2.appendChild(td1);
   td1.textContent = locationgg[k].total;
 }
+var tfooter = document.createElement('tfoot');
+tableElm.appendChild(tfooter);
+var tr3 = document.createElement('tr');
+tfooter.appendChild(tr3);
+td1 = document.createElement('td');
+tr3.appendChild(td1);
+td1.textContent = 'total';
